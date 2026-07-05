@@ -125,6 +125,24 @@ export default function FontPreviewPage({
       </header>
 
       <div className="preview-body">
+        <section className="preview-hero" aria-label="InkDNA preview specimen">
+          <div className="preview-hero-index">
+            <span>NO.</span>
+            <strong>02</strong>
+            <em>DAISY SPECIMEN</em>
+          </div>
+          <div className="preview-hero-title">
+            <span>InkDNA</span>
+            <b>TYPE PREVIEW</b>
+            <span>GLYPH TEST</span>
+          </div>
+          <div className="preview-hero-flower" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+          </div>
+        </section>
+
         {!generated ? (
           <div className="preview-empty">
             <div className="empty-glow">
